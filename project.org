@@ -1,13 +1,28 @@
 * blend2d-vs-cairo
 ** About
-This is a collection of benchmarks comparing the performance of [[http://github.com/rpav/cl-cairo2][cl-cairo2]] and [[https://github.com/jl2/blend2d][blend2d]].
+These are the results of a benchmark comparing the performance of [[http://github.com/rpav/cl-cairo2][cl-cairo2]] and [[https://github.com/jl2/blend2d][blend2d]].
 
-** Results
-Here are the results of the 
+** Machine
+The computer I'm running these benchmarks on is a 2011 era iMac running Debian
+Linux.  It has a 3.6 Ghz Intel i5 CPU and 16 Gb of RAM.
+
+** Other Information
+The images being generated are 2560x2560.  The results are meant to give a rough
+estimate of the speed difference between the two libraries.  I have run the
+benchmark multiple times with similar results, but the results here are "raw"
+numbers from one of the runs.  Since the performance difference between the two
+libraries is so large, I have not (yet) bothered to average multiple test runs 
+or anything like that.
+
+** Test Run
+
+The benchmark was run using the following code at the Slime REPL:
 
 #+BEGIN_SRC common-lisp
-(run-benchmarks "/home/jeremiah/images/blcl-bench/")
+(blend2d-vs-cairo:run-benchmarks "/home/jeremiah/images/blcl-bench/")
 #+END_SRC
+
+** Results
 
 | Task           | Count |  Blend2d |    Cairo |
 |----------------+-------+----------+----------|
@@ -26,8 +41,5 @@ ISC
 
 Copyright (c) 2019 Jeremiah LaRocco <jeremiah_larocco@fastmail.com>
 
-
-
-
-* TODO Items
-** TODO Add more benchmark comparisons, maybe port some fractals from my fractal project.
+** TODO Items
+*** TODO Add more benchmark comparisons, maybe port some fractals from my fractal project.

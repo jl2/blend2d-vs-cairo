@@ -3,7 +3,9 @@
 
 This is a collection of benchmarks comparing the performance of [http://github.com/rpav/cl-cairo2](cl-cairo2) and [https://github.com/jl2/blend2d](blend2d).
 
-## Results
+For more information see [project.org](project.org).
+
+## Summary Results
 
 | Task           | Count |  Blend2d |    Cairo |
 |----------------|-------|----------|----------|
