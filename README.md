@@ -6,7 +6,7 @@ This is a collection of benchmarks comparing the performance of [http://github.c
 ## Results
 
 | Task           | Count |  Blend2d |    Cairo |
-|----------------+-------+----------+----------|
+|----------------|-------|----------|----------|
 | random-circles |    50 | 00:00:00 | 00:00:00 |
 | random-circles |   500 | 00:00:00 | 00:00:01 |
 | random-circles |  5000 | 00:00:00 | 00:00:15 |
