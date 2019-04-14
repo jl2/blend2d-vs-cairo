@@ -9,7 +9,6 @@ Here are the results of the
 (run-benchmarks "/home/jeremiah/images/blcl-bench/")
 #+END_SRC
 
-+----------------+-------+----------+----------+
 | Task           | Count |  Blend2d |    Cairo |
 |----------------+-------+----------+----------|
 | random-circles |    50 | 00:00:00 | 00:00:00 |
@@ -20,7 +19,6 @@ Here are the results of the
 | random-lines   |   500 | 00:00:00 | 00:00:00 |
 | random-lines   |  5000 | 00:00:00 | 00:00:02 |
 | random-lines   | 50000 | 00:00:06 | 00:00:13 |
-+----------------+-------+----------+----------+
 
 
 ** License
