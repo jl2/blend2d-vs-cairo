@@ -1,7 +1,7 @@
 # blend2d-vs-cairo
 ### _Jeremiah LaRocco <jeremiah_larocco@fastmail.com>_
 
-This is a collection of benchmarks comparing the performance of [http://github.com/rpav/cl-cairo2](cl-cairo2) and [https://github.com/jl2/blend2d](blend2d).
+This is a collection of benchmarks comparing the performance of [cl-cairo2](https://github.com/rpav/cl-cairo2) and [blend2d](https://github.com/jl2/blend2d).
 
 For more information see [project.org](project.org).
 
