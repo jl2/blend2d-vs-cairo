@@ -1,6 +1,6 @@
 * blend2d-vs-cairo
 ** About
-These are the results of a benchmark comparing the performance of [[http://github.com/rpav/cl-cairo2][cl-cairo2]] and [[https://github.com/jl2/blend2d][blend2d]].
+These are the results of a benchmark comparing the performance of [[http://github.com/rpav/cl-cairo2][cl-cairo2]] and [[https://github.com/jl2/cl-blend2d][blend2d]]
 
 ** Machine
 The computer I'm running these benchmarks on is a 2011 era iMac running Debian
